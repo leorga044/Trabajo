@@ -16,7 +16,7 @@ class Banco {
 
         // Ingresa al banco
         cBanco++;
-        System.out.println(nCliente + " ingresado. Estos son los clientes : " + cBanco);
+        System.out.println(nCliente + " ingresado. Estos son los clientes: " + cBanco);
 
         // Simulamos el tiempo que el cliente está dentro del banco haciendo alguna operación
         try {
@@ -27,7 +27,7 @@ class Banco {
 
         // Sale del banco
         cBanco--;
-        System.out.println(nCliente + " salio del banco. Estos son los clientes : " + cBanco);
+        System.out.println(nCliente + " salio del banco. Estos son los clientes: " + cBanco);
 
         // Notifica a otros clientes que pueden intentar ingresar
         notifyAll();
